@@ -45,3 +45,15 @@
 .heading{
   font-size: larger;
 }
+.label{
+  font-size: x-large;
+  color: red;
+}
+
+.buttons{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
