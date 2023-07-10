@@ -55,7 +55,8 @@
 
 .label{
   font-size: x-large;
-  color: red;
+  color: rgb(255, 38, 0);
+  font-weight:600;
 }
 
 .buttons{
