@@ -35,7 +35,12 @@
 }
 
 .cellWall{
-  background-color: red;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqe_1VVt_1yx_Vu2f-6Ozt2MLwdrtalXCNQ&usqp=CAU");
+  background-repeat: no-repeat;
+  /* background-size: 50px 50px; */
+  background-size: cover;
+  /* display: flex; */
+  background-position: center center; 
 }
 
 .cellPath{
