@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color:rgb(84, 39, 126);
 }
 
 .cell {
@@ -44,15 +45,18 @@
 }
 
 .cellPath{
+  
   background-color: green;
 }
 
 .heading{
   font-size: larger;
 }
+
 .label{
   font-size: x-large;
-  color: red;
+  color: rgb(255, 38, 0);
+  font-weight:600;
 }
 
 .buttons{
@@ -61,4 +65,3 @@
   justify-content: space-evenly;
   gap: 2em;
 }
-
