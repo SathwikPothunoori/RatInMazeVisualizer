@@ -140,9 +140,10 @@ function Visualizer() {
                 })
             }
         </div>
-        <div>
-            <button className='bg-red-400 hover:bg-red-700 font:bold py-2 px-4 mt-10 rounded' onClick={handleStart} >Start</button>
-            <button className='bg-blue-400 hover:bg-blue-700 font:bold py-2 px-4 mt-10 ml-10 rounded' onClick={handleReset} >Reset</button>
+        <p className='label'>Click on the cells to add walls!!</p>
+        <div className='buttons'>
+            <button className='bg-red-400 hover:bg-red-700 font:bold py-2 px-4 rounded' onClick={handleStart} >Start</button>
+            <button className='bg-blue-400 hover:bg-blue-700 font:bold py-2 px-4  rounded' onClick={handleReset} >Reset</button>
         </div>
     </>
   )
